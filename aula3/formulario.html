@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
 </head>
 <body>
+    <form action="" method="get">
+        <label>Nome:</label>
+        <input type="text" name="nome"size="40" maxlength="20"  placeholder="Digite seu nome">
+        <br>
+        <label>Sobrenome:</label>
+        <input type="text" name="sobrenome">
+        <br>
+        <label>Senha:</label>
+        <input type="password" name="senha">
+        <br>
+        <label>Data:</label>
+        <input type="date" name="data">
+        <br>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpar">
+        
+        <br>
+        <textarea rows="10" cols="50"></textarea>
+        <br>
+        <select name="estados" size="1">
+            <option selected>RS</option>
+            <option>SC</option>
+            <option>PR</option>
+        </select>
+        <br>
+        <input type="file" name="file">
+        <br>
+        <input type="checkbox" name="c1" value="c1">C1
+        <input type="checkbox" name="c2" value="c2">C2
+        <br>
+        <input type="radio" name="c1" value="c1">C1
+        <input type="radio" name="c1" value="c2">C2
     
+    </form>
 </body>
 </html>
