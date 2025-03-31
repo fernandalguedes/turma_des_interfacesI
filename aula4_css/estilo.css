@@ -1,0 +1,25 @@
+
+.azul{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+p,h1{
+    text-align:center;
+}
+.whitewine{
+    color:#ffbb00;
+    list-style-type: square;
+
+}
+.redwine{
+    color:#800000;
+    list-style-type: circle;
+}
+.esquerda{
+    text-align: left;
+}
