@@ -1,4 +1,11 @@
+body{
 
+    background-image: url("mario.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 50%;
+}
 .azul{
     background-color: blue;
 }
@@ -23,3 +30,23 @@ p,h1{
 .esquerda{
     text-align: left;
 }
+.benefit{
+    font-weight: bold;
+    color:red;
+}
+a:link {
+    color: blue;
+} /* links não visitados */
+  
+a:visited {
+    color: purple;
+} /* links visitados */
+  
+a:hover {
+    font-weight: bold;
+} /* quando passar o mouse em cima*/
+  
+a:active {
+    color: lime;
+} /* links ativos */
+  
