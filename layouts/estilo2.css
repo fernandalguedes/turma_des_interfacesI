@@ -1,0 +1,40 @@
+main{
+    margin: 0 auto;
+   
+}
+header{
+    
+    background-color: black;
+    color:white;
+    padding:50px;
+    text-align: center;
+    border:1px solid green;
+}
+section{
+    border:1px solid green;
+    height: 600px;
+    background-color:goldenrod;
+}
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    border:1px solid green;
+    width: 30%;
+    float:left;
+    height: 600px;
+}
+article{
+    width: 70%;
+    height: 600px;
+    float:left;
+    border:1px solid green;
+    padding:20px;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background-color: #777;
+    border:1px solid green;
+}
